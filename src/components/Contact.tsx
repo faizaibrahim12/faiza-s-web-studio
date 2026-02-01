@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Send, Linkedin, ExternalLink, Mail, MapPin } from "lucide-react";
+import { Send, Linkedin, ExternalLink, Mail, MapPin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -142,20 +142,31 @@ const Contact = () => {
             <h4 className="font-medium mb-4">Connect with me</h4>
             <div className="flex gap-4">
               <a
+                href="https://wa.me/923177782554"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 rounded-xl bg-green-500/20 flex items-center justify-center hover:bg-green-500 transition-colors group"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="w-5 h-5 text-green-500 group-hover:text-primary-foreground" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/faiza-qureshi-bb8753315/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center hover:bg-primary transition-colors group"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-5 h-5 text-primary group-hover:text-primary-foreground" />
+              </a>
+              <a
                 href="https://www.fiverr.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center hover:bg-primary transition-colors group"
+                aria-label="Fiverr"
               >
                 <ExternalLink className="w-5 h-5 text-primary group-hover:text-primary-foreground" />
-              </a>
-              <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-xl bg-primary/20 flex items-center justify-center hover:bg-primary transition-colors group"
-              >
-                <Linkedin className="w-5 h-5 text-primary group-hover:text-primary-foreground" />
               </a>
             </div>
           </motion.div>
