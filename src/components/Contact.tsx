@@ -115,10 +115,10 @@ const Contact = () => {
                 <div>
                   <div className="font-medium mb-1">Email</div>
                   <a
-                    href="mailto:hello@faizaweb.com"
+                    href="mailto:faizaqureshi883@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@faizaweb.com
+                    faizaqureshi883@gmail.com
                   </a>
                 </div>
               </div>
@@ -127,10 +127,13 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-primary" />
                 </div>
                 <div>
-                  <div className="font-medium mb-1">Location</div>
-                  <span className="text-muted-foreground">
-                    Available Worldwide (Remote)
-                  </span>
+                  <div className="font-medium mb-1">Phone</div>
+                  <a
+                    href="tel:+923177782554"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    +92 317 778 2554
+                  </a>
                 </div>
               </div>
             </div>
