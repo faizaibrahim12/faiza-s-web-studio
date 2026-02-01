@@ -14,7 +14,7 @@ const projects = [
       "A modern, fully responsive e-commerce platform with secure checkout, product filtering, and seamless mobile experience.",
     image: projectEcommerce,
     tags: ["Next.js", "Tailwind CSS", "Stripe"],
-    link: "#",
+  
   },
   {
     title: "Creative Portfolio Website",
@@ -22,7 +22,7 @@ const projects = [
       "A stunning portfolio website for a photographer featuring smooth animations and a beautiful gallery layout.",
     image: projectPortfolio,
     tags: ["React", "Framer Motion", "CSS"],
-    link: "#",
+    
   },
   {
     title: "Corporate Business Website",
@@ -30,7 +30,7 @@ const projects = [
       "A professional website for a SaaS company with modern design, compelling CTAs, and optimized for conversions.",
     image: projectBusiness,
     tags: ["TypeScript", "Next.js", "PostgreSQL"],
-    link: "#",
+    
   },
 ];
 
